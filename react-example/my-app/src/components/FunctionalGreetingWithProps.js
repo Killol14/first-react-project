@@ -1,10 +1,10 @@
 import React from "react";
 
-function FunctionalGreetingWithProps() {
-    return <h1> Nice!</h1>
+function FunctionalGreetingWithProps(props) {
+    return <h1> Hi, {props.greeting}</h1>
 }
  // OR
- // const FunctionalGreetingWithProps () => <h1>WoW Its Works!</h1>;
+ // const FunctionalGreetingWithProps (props) => <h1> Hi, {props.greeting}</h1>;
  
 export default FunctionalGreetingWithProps;
 
